@@ -19,18 +19,6 @@ function decQuan (item){
     cartCtx.manageCartedItem(item, newQuantity);
 }
 
-//     const reducer = (state, action)=>{
-//         switch (action.type){
-//             case 'incBtn':
-//                 return { count: state.count + 1};
-//             case 'decBtn':
-//                 return state.count > 0 ? {count: state.count -1} : state;
-//             default:
-//                 return state;
-//         }
-//     }
-// const [state, dispatch] = useReducer(reducer, {count:0});
-
   return (
     <>
     <div className="product-cart-item">
